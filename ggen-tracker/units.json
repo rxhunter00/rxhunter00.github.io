@@ -1,0 +1,21 @@
+{
+  "Zeta Series": {
+    "UR": [
+      { "id": "unit2", "name": "Zeta Gundam" }
+    ],
+    "SSR": [
+      { "id": "unit1", "name": "Hyaku Shiki" },
+      { "id": "unit3", "name": "The O" }
+    ],
+    "SR": []
+  },
+  "Gundam Wing": {
+    "UR": [],
+    "SSR": [
+      { "id": "unit4", "name": "Wing Gundam Zero" }
+    ],
+    "SR": [
+      { "id": "unit5", "name": "Tallgeese" }
+    ]
+  }
+}

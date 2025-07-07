@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SD Gundam Eternal Account Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>SD Gundam Eternal - Account Manager</h1>
+
+  <div>
+    <label>Email: <input type="email" id="email"></label><br>
+    <label>Password: <input type="password" id="password"></label>
+  </div>
+
+  <div id="unit-list"></div>
+
+  <button id="save-btn">Save Account Data</button>
+  <input type="file" id="file-input" style="display:none">
+  <button id="load-btn">Load Account Data</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+  <script src="crypto.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
